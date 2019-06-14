@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<nav (click)="selectOnce(element)">
+  <a routerLink="/dashboard"
+     routerLinkActive="active-link">
+    Dashboard
+  </a>
+  <a routerLink="/heroes"
+     routerLinkActive="active-link">
+    Heroes
+  </a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>

@@ -1,0 +1,11 @@
+Angular errors:
+
+  Could not find module "@angular-devkit/build-angular"
+    → npm install --save-dev @angular-devkit/build-angular
+
+  Cannot find module '@angular/compiler-cli'
+    → npm uninstall angular-cli
+    → npm install @angular/cli --save-dev
+
+  Cannot find module 'angular-in-memory-web-api'
+    → npm install angular-in-memory-web-api --save
